@@ -1,0 +1,135 @@
+body {
+	margin: 0;
+	padding: 0;
+	min-width: 320px;
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	outline: none;
+	text-decoration: none;
+	transition: all 0.3s ease-out;
+}
+
+a:hover {
+	opacity: 0.7;
+}
+
+.container {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+#header {
+	position: relative;
+	overflow: hidden;	
+}
+
+.container:after {
+	clear: both;
+}
+
+.logo {
+	float: left;
+	overflow: hidden;
+	width: 100px;
+	height: 100px;
+}
+
+.nav-holder {
+	float: right;
+}
+
+#nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+	list-style: none;	
+}
+
+#nav li {
+	padding: 3px 10px;
+}
+
+.top-wrap {;
+	display: flex;
+	width: 100%;
+}
+
+.sign-box {
+	width: 30%;
+}
+
+.sign-box a {
+	display: inline-block;
+	vertical-align: top;
+	background-color: green;
+	padding: 5px 15px;
+	color: white;
+}
+
+.slider-wraper {
+	width: 70%;
+}
+
+.slider-body {
+	height: 400px;
+	position: relative;
+	border: 1px solid #000;
+	overflow: hidden;
+}
+
+.left-button {
+	transition: all 0.3s ease-out;
+	position: absolute;
+	left: 20px;
+	top: 50%;
+	font-size: 40px;
+	cursor: pointer;
+}
+
+.right-button {
+	transition: all 0.3s ease-out;
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	font-size: 40px;
+	cursor: pointer;
+}
+
+.left-button:hover,
+.right-button:hover {
+	color: red;
+}
+
+
+.pagonation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.pagonation li {
+	transition: all 0.3s ease-out;
+	width: 40px;
+	height: 40px;
+	background-color: red;
+	border: 1px solid #000;
+	cursor: pointer;
+}
+
+.pagonation li:hover {
+	opacity: 0.7;
+}
